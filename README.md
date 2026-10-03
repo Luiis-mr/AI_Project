@@ -10,15 +10,12 @@ Para comenzar, se solicitó una cuenta de estudiante de GitHub y se completó el
 
 Finalmente, se inició sesión en Visual Studio Code con la misma cuenta y se verificó que la extensión de GitHub Copilot estuviera instalada y autenticada. Esto permitió recibir sugerencias de código dentro del editor durante la actividad.
 
-![Captura de la solicitud y validación de la cuenta de estudiante](capturas/01-cuenta-estudiante.png)
 
 ## 2. Creación del repositorio
 
-Desde GitHub se creó un repositorio llamado `AI_Project`. Después, se clonó el repositorio al equipo local para trabajar desde Visual Studio Code. La clonación se puede realizar desde la opción **Code** del repositorio copiando su URL y ejecutando `git clone <URL_DEL_REPOSITORIO>` en una terminal, o utilizando la opción **Clone Repository** de Visual Studio Code.
+Desde GitHub se creó un repositorio llamado `AI_Project`. Después, se clonó el repositorio al equipo local para trabajar desde Visual Studio Code. La clonación se puede realizar desde la opción **Code** del repositorio copiando su URL y ejecutando `git clone <https://github.com/Luiis-mr/AI_Project.git>` en una terminal, o utilizando la opción **Clone Repository** de Visual Studio Code.
 
 Una vez descargado el proyecto, se abrió la carpeta `AI_Project` en Visual Studio Code. Se confirmó que la carpeta local estuviera conectada al repositorio remoto correcto y que la rama de trabajo fuera `main`.
-
-![Captura de la creación del repositorio y su clonación en Visual Studio Code](capturas/02-repositorio-y-clonacion.png)
 
 ## 3. Desarrollo asistido por IA
 
@@ -62,5 +59,3 @@ git push -u origin main
 ```
 
 `git add` prepara el archivo para el commit; `git commit` guarda los cambios en el historial local con un mensaje descriptivo; y `git push -u origin main` publica el commit en la rama `main` del repositorio remoto y establece su seguimiento para futuros envíos. Por último, se revisó el repositorio en GitHub para confirmar que el archivo y el commit estuvieran disponibles.
-
-![Captura de los comandos Git y del archivo publicado en GitHub](capturas/04-control-de-versiones.png)
